@@ -12,7 +12,7 @@ public abstract class Tile {
     public abstract Piece getPiece();
 
     public static final  class  EmptyTile extends Tile{
-        EmptyTile(int coordinate){
+        private EmptyTile(int coordinate){
             super(coordinate);
         }
 
